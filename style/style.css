@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cocin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+}
+
+body{
+    background-color: #FFFF;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.logo{
+    grid-column: 2/4;
+}
+
+nav{
+    grid-column: 4/6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#herobanner{
+    grid-column: 1/7;
+}
+
+main{
+    grid-column: 2/6;
+    background-color: #FFFF;
+}
+
+h1{
+    color: green;
+    font-size: 30px;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer{
+    grid-column: 1/7;
+    background-image: url("../images/bg-footer.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.overOns{
+    text-align: center;
+}
