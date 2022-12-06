@@ -11,10 +11,17 @@ body{
 #container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    background-color: #E1F5F5;
+}
+
+#item1{
+    grid-column: 1/2;
+    background-color: #FFFF;
 }
 
 .logo{
     grid-column: 2/4;
+    background-color: #FFFF;
 }
 
 nav{
@@ -23,20 +30,31 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
+    background-color: #FFFF;
 }
 
 nav > ul{
     list-style-type: none;
+    background-color: #FFFF;
 }
 
 a{
     color: black;
     text-decoration: none;
+    background-color: #FFFF;
 }
 
+#item2{
+    grid-column: 6/7;
+    background-color: #FFFF;
+}
 
 #herobanner{
     grid-column: 1/7;
+}
+
+#herobannerimg{
+    max-width: 99vw;
 }
 
 main{
@@ -57,12 +75,13 @@ p{
 
 footer{
     grid-column: 1/7;
+    margin-top:15vw;
     background-image: url("../images/bg-footer.png");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height:11.8vw
+    height:11.8vw;
 }
 
 #footer{
